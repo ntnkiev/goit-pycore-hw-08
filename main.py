@@ -116,7 +116,7 @@ class AddressBook(UserDict):
         return f"Contact added"
     
     @input_error
-    def find(self, name):
+    def find(self, name): # пошук контакту
         if name in self.data:
             return self.data[name]
         else:
