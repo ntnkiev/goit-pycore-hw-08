@@ -2,7 +2,7 @@ from collections import UserDict
 import re
 from datetime import datetime, timedelta
 import pickle
-
+import colorama
 
 def input_error(func):  # декоратор з обробки помилок
     def inner(*args, **kwargs):
